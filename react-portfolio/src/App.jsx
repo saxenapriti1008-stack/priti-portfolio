@@ -8,18 +8,29 @@ import Footer from "./components/Footer";
 import Projects from "./components/Projects";
 
 function App() {
-  return (
-    <>
-    <Navbar />
-      <Hero />
-      <About />
-      <Skills />
-      <Projects />
-      <Contact />
-      <Footer />
-    </>
 
+  return (
+
+    <div className="app-layout">
+      <Navbar />
+
+      <main className="main-content">
+
+        <Hero />
+        <About />
+        <Skills />
+        <Projects />
+        <Contact />
+        
+      </main>
+
+      <Footer />
+      
+    </div>
   );
 }
+
+
+  
 
 export default App;

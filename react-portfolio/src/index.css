@@ -2,7 +2,6 @@
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
@@ -18,16 +17,18 @@ a {
   color: #646cff;
   text-decoration: inherit;
 }
+
 a:hover {
   color: #535bf2;
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
+  margin: 0; 
   min-width: 320px;
   min-height: 100vh;
+  font-family: system-ui,Avenir,Helvetica,Arial,sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
 }
 
 h1 {
@@ -87,6 +88,63 @@ p {
   margin-left: auto;
   margin-right: auto;
 }
+
+.app-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  background-color: #f9f9f9;
+}
+
+ nav, .navbar, .sidebar {
+  width: 260px;
+  background-color: #5f6f82;
+  color: white;
+  padding: 2rem 1.5rem;
+  position: fixed;
+  height: 100vh;
+}
+
+.sidebar ul {
+  list-style: none;
+  margin-top: 2rem;
+}
+
+.sidebar li {
+  margin: 1rem 0;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.sidebar li:hover {
+  opacity: 0.8;
+}
+
+.main-content {
+  margin-left: 260px;
+  padding: 3rem;
+}
+
+section {
+  max-width: 1000px;
+  margin-bottom: 4rem;
+}
+section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.section-divider {
+  height: 2px;
+  width: 60px;
+  background-color: #ccc;
+  margin-bottom: 2rem;
+}
+
 .hero {
   min-height: 90vh;
   display: flex;
@@ -103,13 +161,13 @@ p {
 
 .hero-text h1 {
   font-size: 3rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 10px;
 }
 
 .hero-text h2 {
-  font-size: 1.5rem;
+  font-weight: 400;
   color: #555;
-  margin-bottom: 1rem;
+  
 }
 
 .hero-text p {
@@ -117,11 +175,9 @@ p {
   line-height: 1.6;
 }
 
-.hero-image img {
-  width: 250px;
-  height: 250px;
+.hero img {
+  width: 220px;
   border-radius: 50%;
-  object-fit: cover;
 }
 
 .about {
@@ -299,4 +355,39 @@ section {
   }
 }
 
+button {
+  padding: 12px 24px;
+  border: none;
+  background: #0077b5;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #005a8c;
+}
+
+.project-card {
+  border: 1px solid #eee;
+  padding: 20px;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background: #f9f9f9;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  text-decoration: none;
+}
 
