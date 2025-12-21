@@ -23,6 +23,15 @@ const projects = [
     live: "https://saxenapriti1008-stack.github.io/Module-1-Final-Test/",
     github: "https://github.com/saxenapriti1008-stack/Module-1-Final-Test",
   },
+
+  {
+    title: "Pokémon API Mini Game",
+    description:
+      "A React-based mini game using the Pokémon API to practice component structure, state handling, and API integration.",
+    tech: "React, JavaScript, API",
+    github: "https://github.com/saxenapriti1008-stack/React-Assignment-Minigame",
+    live: null,
+  },
 ];
 
 export default projects;
