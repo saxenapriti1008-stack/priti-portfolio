@@ -1,5 +1,5 @@
 
-import Navbar from "./components/Navbar";
+import Sidebar from "./components/Sidebar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Experience from "./components/Experience";
@@ -14,7 +14,7 @@ function App() {
   return (
 
     <div className="app-layout">
-      <Navbar />
+      <Sidebar />
 
       <main className="main-content">
 
