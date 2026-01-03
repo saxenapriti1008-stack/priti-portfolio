@@ -9,6 +9,7 @@ function Experience() {
         Experience transferable to frontend development and UX.  
         Worked with campaigns, analytics, and UX-focused content creation.
         </p>
+        <br />
 
         <h3>International Sales and Marketing - Fenix Film</h3>
         <p>2020 - 2021</p>

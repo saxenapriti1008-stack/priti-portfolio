@@ -49,6 +49,7 @@ body {
 .sidebar-title {
   font-size: 0.9rem;
   opacity: 0.9;
+  color: white;
 }
 
 .sidebar-nav {
@@ -109,8 +110,10 @@ body {
 .hero-text p {
   font-size: 1.1rem;
   line-height: 1.6;
+  color: white;
 }
 /* PROJECTS */
+
  #projects {
   padding: 80px 10%; 
   background-color: #f9f9f9;
@@ -120,7 +123,7 @@ body {
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
    gap: 24px;
-    margin-top: 40px; 
+   margin-top: 20px; 
   }
 
   .project-image {
@@ -155,9 +158,54 @@ body {
    .project-links a {
     margin-right: 16px;
     text-decoration: none; 
-    color: #0077ff;
+    color: maroon;
     font-weight: 500; 
   }
+
+  .contact { 
+  padding: 80px 20px;
+  max-width: 700px; margin: 0 auto; 
+  text-align: center; 
+ }
+
+ .contact h2 { 
+  font-size: 2rem; 
+  margin-bottom: 20px; 
+ }
+
+ .contact p { 
+  margin-bottom: 40px; 
+  color: #555; 
+ }
+
+ .contact-form { 
+  display: flex; 
+  flex-direction: column; 
+  gap: 15px;
+ }
+
+ .contact-form input, .contact-form textarea { 
+  padding: 12px; 
+  font-size: 1rem; 
+  border: 1px solid #ccc; 
+  border-radius: 6px; 
+ }
+
+ .contact-form button { 
+  padding: 12px; 
+  font-size: 1rem; 
+  background-color: maroon; 
+  color: #fff; 
+  border: none; 
+  border-radius: 6px; 
+  cursor: pointer; 
+ }
+
+ .contact-form button:hover { 
+  background-color: #4338ca;
+ }
+
+
 
   
 /* ===== SECTIONS ===== */
@@ -179,7 +227,7 @@ p {
 /* ===== LINKS ===== */
 a {
   text-decoration: none;
-  color: inherit;
+  color: maroon;
 }
 
 /* ===== FOOTER ===== */
@@ -187,4 +235,14 @@ footer {
   padding: 30px;
   text-align: center;
   background: #eee;
+}
+
+.footer-links { 
+ margin-top: 10px; 
+ display: flex; 
+ justify-content: 
+ center; gap: 20px;
+ }
+
+ html { scroll-behavior: smooth; 
 }

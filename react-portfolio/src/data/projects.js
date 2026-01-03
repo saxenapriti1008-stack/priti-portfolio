@@ -36,16 +36,6 @@ const projects = [
     github: "https://github.com/saxenapriti1008-stack/Module-1-Final-Test",
   },
 
-  {
-    title: "Pokémon API Mini Game",
-    image: pokemonImg,
-    description:
-      "A React-based mini game using the Pokémon API to practice component structure, state handling, and API integration.",
-    tech: "React, JavaScript, API",
-    github: "https://github.com/saxenapriti1008-stack/React-Assignment-Minigame",
-    
-  },
-
    {
     title: "CSS Framewroks",
     image: frameworkImg,
@@ -53,6 +43,16 @@ const projects = [
       "Project experimenting with popular CSS frameworks and reusable components",
     tech: "Bootstrap, Animation, CSS Libraries",
     github: "https://github.com/saxenapriti1008-stack/CSS-Frameworks-Assignment15",
+    
+  },
+
+   {
+    title: "Pokémon API Mini Game",
+    image: pokemonImg,
+    description:
+      "A React-based mini game using the Pokémon API to practice component structure, state handling, and API integration.",
+    tech: "React, JavaScript, API",
+    github: "https://github.com/saxenapriti1008-stack/React-Assignment-Minigame",
     
   },
 ];

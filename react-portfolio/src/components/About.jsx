@@ -5,26 +5,30 @@ function About() {
 
       <p>
         Hi, I’m <strong>Priti Saxena</strong> Frontend Developer based in
-        Gothenburg, Sweden. I am a Frontend Developer
-        program, where I build responsive and user-friendly web applications
-        using HTML, CSS, JavaScript, and React.A passionate Frontend Developer creating responsive, interactive web experiences.I am having 8+ years of experience in digital marketing, reaecrh analysis and UX thinking. Building responsive and user-friendly web applications with React,
-       JavaScript, and modern UI practices.  I build responsive and user-friendly web applications using
-          HTML, CSS, JavaScript, and React.
-      </p>
+        Gothenburg, Sweden,with a strong passion for creating responsive, user-friendly, and visually engaging web experiences.
+        <br />
 
-      <p>
-        I'm a Junior Frontend Developer with a unique background combining 8+ years of professional experience in digital marketing, sales, and business development with a passion for creating beautiful, user-centered web experiences.
+        I’m currently completing my Frontend Developer program at Sundsgården Folkhögskola, where I work with HTML5, CSS3, JavaScript, and React to build modern, accessible interfaces. I enjoy transforming designs into clean, intuitive code and continuously improving my skills through hands-on projects.
 
-Currently completing my Frontend Developer program at Sundsgården Folkhögskola in Sweden, I've developed strong skills in HTML5, CSS3, JavaScript, and React. My marketing background gives me a distinct advantage in understanding user experience and design thinking, which I apply to every project I build.
+        <br />
 
-I'm excited to transition into frontend development and continue growing through a Backend Developer program starting January 2026. I'm based in Gothenburg, Sweden, and I'm always eager to collaborate on innovative projects and learn from experienced developers.
-        With over 8 years of previous experience in digital marketing, design
-        thinking, and cross-functional collaboration, I bring a strong
-        user-focused mindset and UX perspective to frontend development. I enjoy
-        transforming designs into clean, accessible interfaces and continuously
-        improving my skills through hands-on projects.
-      </p>
-    </section>
+        What makes me unique is my 8+ years of professional experience in digital marketing, UX thinking, research analysis, and business development. This background gives me a strong user-centered mindset I don’t just build interfaces, I think about who they are for and why they matter. My experience with market research, design thinking, and cross-functional collaboration helps me create solutions that balance usability, aesthetics, and business goals.
+
+        <br />
+
+        Before transitioning into frontend development, I worked extensively with SEO/SEM, social media strategy, content creation, campaign planning, and performance optimization across platforms like LinkedIn, Instagram, and Google. This experience strengthened my ability to analyze user behavior, optimize digital journeys, and communicate effectively with both technical and non-technical teams.
+
+        <br />
+
+        Beyond my professional life, I’m a creative, empathetic, and optimistic person. I’m a proud mother of two, a strong believer in meaningful connections, and someone who finds peace in nature, water, music, and movement. I’m known for being a good listener, a problem solver, and someone who brings calm and clarity even in complex situations.
+
+        <br />
+
+        I’m now excited to continue my journey as a frontend developer and further expand my technical skills, including a Backend Developer program starting in January 2026. I’m always eager to learn, collaborate, and contribute to innovative projects that combine technology, design, and human-centered thinking.
+
+        </p>
+
+       </section>
   );
 }
 
