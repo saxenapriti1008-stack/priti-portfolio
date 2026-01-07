@@ -16,7 +16,7 @@ function App() {
     <div className="app-layout">
       <Sidebar />
 
-      <main className="main-content">
+      <div className="main-content">
 
         <Hero />
         <About />
@@ -27,8 +27,7 @@ function App() {
         <Contact />
          <Footer />
         
-      </main> 
-      
+      </div>
     </div>
   );
 }

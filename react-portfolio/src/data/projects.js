@@ -42,6 +42,7 @@ const projects = [
     description:
       "Project experimenting with popular CSS frameworks and reusable components",
     tech: "Bootstrap, Animation, CSS Libraries",
+    live: "https://saxenapriti1008-stack.github.io/CSS-Frameworks-Assignment15/",
     github: "https://github.com/saxenapriti1008-stack/CSS-Frameworks-Assignment15",
     
   },
