@@ -18,11 +18,28 @@ function Sidebar() {
         <li><a href="#contact">Contact</a></li>
       </ul>
 
-      <div className="sidebar-social">
-        <a href="https://linkedin.com" target="_blank">LinkedIn</a>
-        <a href="https://github.com" target="_blank">GitHub</a>
-      </div>
-    </aside>
+      {/* SOCIAL ICONS  */}
+
+      <div className="social-icons">
+        <a
+          href="https://www.linkedin.com/in/priti-saxena-29699439/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="linkedin"
+        >
+          LinkedIn
+        </a>
+
+        <a
+          href="https://github.com/saxenapriti1008-stack"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="github"
+        >
+          GitHub
+        </a>
+       </div>
+       </aside>
   );
 }
 
