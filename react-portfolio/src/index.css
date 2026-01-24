@@ -1,4 +1,4 @@
-/* ===== RESET ===== */
+
 * {
   margin: 0;
   padding: 0;
@@ -111,18 +111,17 @@ body {
   position: relative;
   width: calc(100vw - 260px); /* sidebar width */
   background-image: url("./assets/Portfolio-bg-img.png");
+  margin-left: -260px;
+  width: 100vw;
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
-  margin-left: 260px;
   min-height: 70vh;
   margin: 0%;
   padding: 0%;
   
-  
-
 }
 
 .hero-content {
