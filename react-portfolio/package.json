@@ -2,6 +2,9 @@
   "name": "react-portfolio",
   "private": true,
   "version": "0.0.0",
+
+  "homepage": "https://saxenapriti1008-stack.github.io/priti-portfolio",
+
   "type": "module",
   "scripts": {
     "dev": "vite",
