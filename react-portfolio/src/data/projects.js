@@ -1,6 +1,6 @@
-import svgprojectImg from "../assets/svgproject.png";
-import genesisImg from "../assets/genesis.png";
-import bhromaonImg from "../assets/bhromaon.png";
+import svgprojectImg from "../assets/Svgproject.png";
+import genesisImg from "../assets/Genesis.png";
+import bhromaonImg from "../assets/Bhromaon.png";
 import pokemonImg from "../assets/pokemon.png";
 import frameworkImg from "../assets/framework.png";
 
